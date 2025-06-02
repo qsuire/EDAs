@@ -24,6 +24,20 @@ pip install -e .
 
 (Optional) If you want to use `main.py` or `eda/builder.py`, you need to install [BB-DOB](https://github.com/e5120/BB-DOB) project.
 
+## Setup with docker/podman
+
+Build the image:
+
+```console
+docker build -t edas .
+```
+
+Run a script:
+```
+docker run --rm edas bash -c "cd scripts && bash boa.sh"
+```
+
+
 ## Features
 - [PBIL](https://apps.dtic.mil/docs/citations/ADA282654)
 - [UMDA](http://www.muehlenbein.org/estbin96.pdf)

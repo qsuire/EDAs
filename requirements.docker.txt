@@ -1,0 +1,7 @@
+numpy>=1.17.2
+scipy==1.7.3
+scikit-learn==1.0.2
+tensorflow<2
+protobuf<3.20
+nasbench @ git+https://github.com/google-research/nasbench@b94247037ee470418a3e56dcb83814e9be83f3a8
+bb-dob @ git+https://github.com/e5120/BB-DOB@73401d590a310fb57c20bb03312c0531b839c684

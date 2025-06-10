@@ -29,7 +29,7 @@ class MIMIC(EDABase):
         if self.population is None:
             self.population = x
             self.fitness = evals
-            self.lam = int(np.ceil(self.lam * self.replacement.replace_rate))
+            self.lam = int(self.lam * self.replacement.replace_rate)
         else:
             self.population, self.fitness = self.replacement(self.population,
                                                              self.fitness,
